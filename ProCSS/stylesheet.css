@@ -1,0 +1,287 @@
+
+html{
+    box-sizing: border-box;
+    background-color:rgb(243, 232, 238);
+}
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+            /* GENERAL */
+
+body{
+    font-family:'Noto Serif NP Hmong', serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(46, 44, 47);
+}
+
+.button {
+    text-decoration: none;
+    font-size: 20px;
+    color:beige;
+    background-color:rgb(168, 205, 176);
+    border-radius: 20px;
+    padding: 5px;
+    margin: 2px;
+}
+
+.button:hover{
+    padding:10px;
+    background-color: rgb(114, 155, 121);
+}
+
+nav{
+    position: sticky;
+    top:0;
+    background-color:rgb(168, 205, 176);
+    padding: 5px;
+    border-radius: 100px;
+}
+
+aside {
+    position: sticky;
+    top:85px;
+    background-color:rgb(71, 91, 99);
+    padding: 0;
+    border-radius: 100px;
+    color:rgb(243, 232, 238);
+}
+
+aside li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+h1 {
+    color:rgb(71, 91, 99);
+    font-family: 'Young Serif', sans-serif;
+    font-size: 60px;
+    line-height: 0.7;
+    margin: 20px 2px 0 ;
+  }
+  
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.profile{
+    width: 1200px;
+    border: 2px solid rgb(46, 44, 47); 
+    padding: 10px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+            /* PROFILE */
+
+#beyonce{
+    float: right;
+    padding: 10px;
+}
+
+#bpro h2{
+    display:block;
+}
+
+#phone{
+    margin: 100px 0 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.top li{
+    list-style-type: none;
+    margin: 130px;
+    display: flex;
+    justify-content: center;
+    display: inline;
+}
+
+           /* ABOUT ME*/
+.myself h2{
+    color:rgb(243, 232, 238);
+    padding: 8px;
+    background-color: rgb(71, 91, 99);
+}
+.myself h3{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.myself h4{
+    margin-top:0;
+    margin-bottom:5;
+}
+
+.myself ul{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+#about p{
+    font-size: 18px;
+}
+
+#end h2{
+    color: rgb(71, 91, 99);
+}
+
+.jobs li{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.jobs p{
+    margin-top: 0;
+}
+
+           /* FOOTER*/
+footer li{
+    list-style-type: none;
+    margin: 90px;
+    display: flex;
+    justify-content: center;
+    display: inline;
+}
+
+footer ul{
+    background-color: rgb(168, 205, 176);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+footer h1{
+    display: flex;
+    justify-content: center;
+}
+
+#blink{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    background-color:rgb(114, 155, 121);
+    color:rgb(243, 232, 238);
+    border-radius: 2px;
+    padding: 5px;
+    margin: 2px;
+}
+
+/* BLOG HEADER */
+
+#btop p{
+    font-size: 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1;
+}
+
+.grid a:hover{
+    padding:2px;
+    background-color: rgb(114, 155, 121);
+}
+
+.grid a{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    background-color:rgb(71, 91, 99);
+    color:rgb(243, 232, 238);
+    border-radius: 2px;
+    padding: 5px;
+    margin: 2px;
+}
+
+.btop h2{
+    background-color: rgb(114, 155, 121);
+    padding: 5px;
+    border-radius: 2px;
+}
+
+/* BLOG 1 */
+
+.post{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1;
+}
+
+.post a{
+    display: flex;
+    justify-content: center;
+}
+
+ol{
+    list-style-type: none;
+    text-align: center;
+}
+
+article h1{
+    display: flex;
+    justify-content: center;
+}
+
+
+ol li{
+    font-size: 25px;
+}
+
+#up{
+    display: flex;
+    justify-content: center;
+}
+
+.try3 ul{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 1;
+}
+
+/* BLOG 2 */
+.post2{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1;
+}
+
+.post2 a{
+    display: flex;
+    justify-content: center;
+}
+
+.first2{
+    width: 1200px;
+    border: 2px solid rgb(46, 44, 47); 
+    padding: 10px;
+    margin: 0px 0px 20px 238px;
+    overflow: hidden;
+}
+
+.try2 ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1;
+}
+/* BLOG 3 */
+
+.text{
+    text-align: center;
+}
+
+.text li{
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.try ul{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 1;
+}
